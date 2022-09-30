@@ -31,3 +31,7 @@ function playRound(playerSelection, computerSelection) {
         return 'Choose between rock, paper, and scissors';
     }
   };
+   
+  const playerSelection = "rock";
+  const computerSelection = getComputerChoice();
+  console.log(playRound(playerSelection, computerSelection));
